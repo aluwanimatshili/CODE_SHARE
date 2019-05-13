@@ -1,0 +1,93 @@
+<style>
+.Body
+{
+	line-height: 1.2em;
+}
+h1 span
+{
+	display: block;
+	padding-top:2px;
+}
+#user_header
+{
+	font-weight: bold;
+	font-size: 24px;
+}
+#span_header
+{
+	font-weight: lighter;
+	font-size: 20px;
+}
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+#container > div {
+  padding-left:10px;
+  width: 250px;
+  height: 100px;
+}
+#span_company
+{
+	padding:0px;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#h1_position
+{
+	font-weight: Bold;
+	font-size: 14px;
+	line-height: 1.1em;
+}
+#TheBody
+{
+	line-height: 1.2em;
+}
+#span_period
+{
+	font-style: italic;
+	font-size: 14px;
+	font-weight: lighter;
+}
+h1
+{
+	line-height: 1.2em;
+}
+div
+{
+	line-height: 1.2em;
+}
+</style>
+<body> 
+ <div id="TheHeader">
+  <h1 id="user_header" align="left">Aluwani Matshili
+  <span id="span_header">Data Analyst</span></h1>
+ </div>
+ <div id="TheBody">
+	<p>Innovative and challenge driven data analyst with well over 3 years experience in the 
+		<strong>Business Intelligence</strong> industry, Experienced in collectting,cleansing 
+		analyzing analyzing data in order to drive growth for some of the biggest providers of
+		Telecommunications services in Africa including <strong>MTN Swaziland</strong>, <strong>Mascom Botswana</strong>, 
+		<strong>Econet Zimbabwe</strong> and more.</p>
+		<p>In the past 3 years i have been involved in several projects including being the dedicated resource responsible 
+		for creating the <strong>MFS (Mobile Financial Solutions)</strong> BI solution, from integrating data from different 
+		sources to creating Microstrategy reports and re-branding the the web and mobile platform.
+	</p>
+ </div>
+ <h1 style="color:#8b0000;" id="user_header" align="left">Work Summary</h1>
+   <div id="TheHeader">
+    <h1 id="h1_position" align="left">Junior Data Analyst
+    <span id="span_company">Adapt IT (Pty) LTD</span>
+    <span id="span_period">Jun 2018 - Present</span></h1>
+	<p>Duties and responsibilities</p>
+	<ul>
+		<li>Integrating data from different sources</li>
+		<li>Building summaries based on requests for reporting</li>
+		<li>Attending to adhoc requests for information i.e. Revenue, Subscriber DNA etc.</li>
+		<li>BI Reporting using tools such as Microstrategy, Qlick Sense, Power BI etc.</li>
+	</ul>
+   </div>
+</div>
+</body>
